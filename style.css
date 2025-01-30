@@ -68,6 +68,15 @@ body {
     scrollbar-width: none;
 }
 
+/* Hide the suggestions and .app-header */
+.app-header {
+    display: none;
+}
+
+.suggestions {
+    display: none !important;
+}
+
 .suggestions .suggestions-item {
     width: 228px;
     padding: 18px;
