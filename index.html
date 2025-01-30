@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>HelloUoVT</title>
     
+    <!-- Link to fontawesome icon kit -->
+    <script src="https://kit.fontawesome.com/b4cdea8b6a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="app-header">
+            <h1 class="heading">Hello, there</h1>
+            <h2 class="sub-heading">How can I help you?</h2>
+        </header>
+
+        <!-- Suggestions List -->
+        <ul class="Suggestions">
+            <li class="suggestions-item">
+                <p class="text">
+                    sample prompt
+                </p>
+                <i class="fa-solid fa-pen-ruler"></i>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">
+                    sample prompt
+                </p>
+                <i class="fa-solid fa-lightbulb"></i>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">
+                    sample prompt
+                </p>
+                <i class="fa-solid fa-compass"></i>
+            </li>
+
+            <li class="suggestions-item">
+                <p class="text">
+                    sample prompt
+                </p>
+                <i class="fa-solid fa-code"></i>
+            </li>
+        </ul>
+
+        <!-- Prompt container -->
+         <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="promt-form">
+                    <input type="text" placeholder="Ask HelloUoVT" class="prompt-input">
+                    <div class="prompt-actions">
+                        <button id="add-file-btn" type="button">
+                            <i class="fa-solid fa-paperclip"></i>
+                        </button>
+                        <button id="send-prompt-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+         </div>
+
+         <p class="disclaimer-text">HelloUoVT can make mistakes, so double check it.</p>
+    </div>    
 </body>
+
 </html>
