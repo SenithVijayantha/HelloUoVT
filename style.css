@@ -11,9 +11,9 @@
 :root {
     /* Colors */
     --text-color: #ffffff;
-    /* --subheading-color: */
+    --subheading-color: #b069db;
     /* --placeholder-color: */
-    --primary-color: #0f0e47;
+    --primary-color: #29013f;
     /* --secondary-color: */
     /* --secondary-hover-color: */
     /* --scrollbar-color: */
@@ -22,4 +22,39 @@
 body {
     color: var(--text-color);
     background: var(--primary-color);
+    
 }
+
+.container {
+    padding: 32px 0px 60px;
+}
+
+.container :where(.app-header, .suggestions, .prompt-wrapper, .disclaimer-text) {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    max-width: 980px;    
+}
+
+.container .app-header {
+    margin-top:  4vh;
+}
+
+/* App header styles */
+
+.app-header .heading{
+    font-size: 3rem;
+    width: fit-content;
+    background: linear-gradient(to right, #ff00cc, #333399);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app-header .sub-heading {
+    font-size: 1.6rem;
+    margin-top: -5px;
+    color: var(--subheading-color);
+}
+
+/* Suggestions list styles*/
