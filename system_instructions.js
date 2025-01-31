@@ -8,6 +8,13 @@ University Telephone Number is: +94 112 630 700
 University Fax number is: +94 112630705
 University email: uovt@uovt.ac.lk
 
+To apply for admissions you can go to the university website (uovt.ac.lk) then in the applications section you can apply through the online portal.
+
+Requirements to apply for the University are listed below
+
+- If you are an A/L student you need minimum of 3 S passes to apply to UoVT.
+- If you are a NVQ student you should have NVQ5 or NVQ6 to be able to apply to UoVT.
+
 Operating housr of library are listed below
 
 - from 8.30 am to 7.00 pm on weekdays
