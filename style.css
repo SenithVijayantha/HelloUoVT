@@ -148,6 +148,10 @@ body.chats-active .container :where(.app-header, .suggestions) {
     gap: 20px;
 }
 
+.chats-container {
+    margin-bottom: 20px;
+}
+
 .chats-container .message {
     display: flex;
     gap: 11px;
