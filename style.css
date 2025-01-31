@@ -69,14 +69,9 @@ body {
 }
 
 /* Hide the suggestions and .app-header */
-.app-header {
-    /* display: none; */
+body.chats-active .container :where(.app-header, .suggestions) {
+    display: none;
 }
-
-.suggestions {
-    /* display: none !important; */
-}
-
 /* ---------- */
 
 .suggestions .suggestions-item {
@@ -269,3 +264,4 @@ body {
     padding: 16px 20px 0;
     color: var(--placeholder-color);
 }
+

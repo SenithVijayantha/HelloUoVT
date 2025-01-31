@@ -66,6 +66,8 @@ const handleFormSubmit = (e) => {
 
     promptInput.value = "";
 
+    document.body.classList.add("chats-active");
+
     // Generate user message HTML and in the chats container
     const userMsgHTML = `<p class="message-text"></p>`;
     const userMsgDiv = createMsgElement(userMsgHTML, "user-message");
