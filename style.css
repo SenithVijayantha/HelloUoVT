@@ -149,7 +149,7 @@ body.chats-active .container :where(.app-header, .suggestions) {
 }
 
 .chats-container {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .chats-container .message {
