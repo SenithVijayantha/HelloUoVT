@@ -17,17 +17,22 @@ const createMsgElement = (content, ...classes) => {
   return div;
 };
 
-// const typingEffect = (text, textElement, botMsgDiv) => {
-//     textElement.textContent = "";
-//     const words = text.split(" ");
-//     let wordIndex = 0;
+// Simulate typing effect for bot response
+const typingEffect = (text, textElement, botMsgDiv) => {
+    textElement.textContent = "";
+    const words = text.split(" ");
+    let wordIndex = 0;
 
-//     const typingInterval = setInterval(() => {
-//         if(wordIndex < words.length) {
-//             textElement.textContent += (wordIndex === 0 ? "" : " ") +
-//         }
-//     }, )
-// }
+    // Set an interval to type each word
+    const typingInterval = setInterval(() => {
+        if(wordIndex < words.length) {
+            textElement.textContent += (wordIndex === 0 ? "" : " ") + words[wordIndex++];
+            botMsgDiv.classList.remove("loading");
+        } else {
+            clearInterval(typing)
+        }
+    }, )
+}
 
 // Function to make the API call and generate response
 const generateResponse = async (botMsgDiv) => {
@@ -56,11 +61,9 @@ const generateResponse = async (botMsgDiv) => {
     if (!response.ok) throw new Error(data.error.message);
 
     // Process the response text and display with the typing effect
-    const responseText = data.candidates[0].content.parts[0].text
-      .replace(/\*\*([^*]+)\*\*/g, "$1")
-      .trim();
+    const responseText = data.candidates[0].content.parts[0].text.replace(/\*\*([^*]+)\*\*/g, "$1").trim();
     textElement.textContent = responseText;
-    // typingEffect(responseText, textElement, botMsgDiv);
+    typingEffect(responseText, textElement, botMsgDiv);
   } catch (error) {
     console.log(error);
   }

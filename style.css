@@ -28,6 +28,9 @@ body {
 
 .container {
     padding: 32px 0px 60px;
+    overflow-y: auto;
+    max-height: calc(100vh - 127px);
+    scrollbar-color: var(--secondary-color) transparent;
 }
 
 .container :where(.app-header, .suggestions, .prompt-wrapper, .disclaimer-text, .message) {
@@ -148,9 +151,9 @@ body.chats-active .container :where(.app-header, .suggestions) {
     gap: 20px;
 }
 
-.chats-container {
+/* .chats-container {
     padding-bottom: 120px;
-}
+} */
 
 .chats-container .message {
     display: flex;
