@@ -29,7 +29,7 @@ body {
     padding: 32px 0px 60px;
 }
 
-.container :where(.app-header, .suggestions, .prompt-wrapper, .disclaimer-text) {
+.container :where(.app-header, .suggestions, .prompt-wrapper, .disclaimer-text, .message) {
     margin: 0 auto;
     width: 100%;
     padding: 0 20px;
@@ -77,6 +77,8 @@ body {
     display: none !important;
 }
 
+/* ---------- */
+
 .suggestions .suggestions-item {
     width: 228px;
     padding: 18px;
@@ -122,6 +124,55 @@ body {
 
 .suggestions .suggestions-item:nth-child(4) i {
     color: #6f42c1;
+}
+
+/* Chats container styles */
+
+.container .chats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chats-container .message {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+
+.chats-container .bot-message .avatar{
+    height: 43px;
+    width: 43px;
+    flex-shrink: 0;
+    padding: 6px;
+    align-self: flex-start;
+    margin-right: -7px;
+    border-radius: 50%;
+    background: var(--text-color);
+    padding: 4px;
+    border: 1px solid var(--secondary-hover-color);
+}
+
+.chats-container .message .message-text {
+    padding: 3px 16px;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.chats-container .bot-message {
+    margin: 9px auto;
+}
+
+.chats-container .user-message {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.chats-container .user-message .message-text {
+    padding: 12px 16px;
+    max-width: 75%;
+    border-radius: 13px 13px 3px 13px;
+    background: var(--secondary-color);
 }
 
 /* Prompt container styles */
