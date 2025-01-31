@@ -62,7 +62,7 @@ body {
     display: flex;
     gap: 10px;
     background: var(--heading-background-color);
-    padding: 5px 10px;
+    padding: 10px 15px;
     width: max-content;
     border-radius: 10px;
     margin-bottom: 5px;
@@ -282,6 +282,10 @@ body.chats-active .container :where(.app-header, .suggestions) {
     font-size: 0.9rem;
     padding: 16px 20px 0;
     color: var(--placeholder-color);
+}
+
+.disclaimer-text a {
+    color: rgb(160, 160, 160);
 }
 
 /* For small screens */
