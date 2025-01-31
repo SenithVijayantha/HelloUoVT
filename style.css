@@ -14,6 +14,7 @@
     --subheading-color: #b069db;
     --placeholder-color:#cccccc;
     --primary-color: #29013f;
+    --heading-background-color: #350052;
     --secondary-color: #6e00b3;
     --secondary-hover-color:#9d00ff;
     /* --scrollbar-color: */
@@ -56,6 +57,24 @@ body {
     margin-top: -5px;
     color: var(--subheading-color);
 }
+
+.app-header .heading-wrapper {
+    display: flex;
+    gap: 10px;
+    background: var(--heading-background-color);
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.app-header .logo {
+    width: 40px;
+    /* height: auto; */
+    object-fit: contain;
+}
+
+
 
 /* Suggestions list styles*/
 
@@ -265,3 +284,15 @@ body.chats-active .container :where(.app-header, .suggestions) {
     color: var(--placeholder-color);
 }
 
+/* For small screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 0 100px;
+    }
+
+    .app-header :is(.heading) {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+
+}
