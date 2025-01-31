@@ -70,11 +70,11 @@ body {
 
 /* Hide the suggestions and .app-header */
 .app-header {
-    display: none;
+    /* display: none; */
 }
 
 .suggestions {
-    display: none !important;
+    /* display: none !important; */
 }
 
 /* ---------- */
@@ -154,7 +154,7 @@ body {
 }
 
 .chats-container .bot-message.loading .avatar {
-    animation: rotate 3s linear infinite;
+    animation: rotate 3s linear forwards;
 }
 
 @keyframes rotate {

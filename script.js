@@ -17,6 +17,18 @@ const createMsgElement = (content, ...classes) => {
     return div;
 }
 
+// const typingEffect = (text, textElement, botMsgDiv) => {
+//     textElement.textContent = "";
+//     const words = text.split(" ");
+//     let wordIndex = 0;
+
+//     const typingInterval = setInterval(() => {
+//         if(wordIndex < words.length) {
+//             textElement.textContent += (wordIndex === 0 ? "" : " ") + 
+//         }
+//     }, )
+// }
+
 // Function to make the API call and generate response
 const generateResponse = async (botMsgDiv) => {
     const textElement = botMsgDiv.querySelector(".message-text");
@@ -38,9 +50,10 @@ const generateResponse = async (botMsgDiv) => {
         const data = await response.json();
         if(!response.ok) throw new Error(data.error.message);
 
-        // Process the response text and display
+        // Process the response text and display with the typing effect
         const responseText = data.candidates[0].content.parts[0].text.replace(/\*\*([^*]+)\*\*/g, "$1").trim();
         textElement.textContent = responseText;
+        // typingEffect(responseText, textElement, botMsgDiv);
     } catch (error) {
         console.log(error)
     }
@@ -68,6 +81,14 @@ const handleFormSubmit = (e) => {
         generateResponse(botMsgDiv);
     }, 600)
 }
+
+// Generate response for suggestions click
+document.querySelectorAll(".suggestions-item").forEach(item => {
+    item.addEventListener("click", () => {
+        promptInput.value = item.querySelector(".text").textContent;
+        promptForm.dispatchEvent(new Event("submit"));
+    });
+});
 
 promptForm.addEventListener("submit", handleFormSubmit);
 
