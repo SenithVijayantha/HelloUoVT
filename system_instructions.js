@@ -50,6 +50,8 @@ Established by the parliamentary Act No. 31 of 2008, in 2009 and functions under
 
 The University of Vocational Technology, currently has four faculties.
 
+If asked about List of degrees, print all the degrees available in UoVT.
+
 All Faculty and departments under each faculties are listed below.
 
 * Faculty of Engineering Technology
