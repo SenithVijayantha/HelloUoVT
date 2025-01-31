@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HelloUoVT</title>
     
+    <!-- Link to google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward,attach_file" />
+
     <!-- Link to fontawesome icon kit -->
     <script src="https://kit.fontawesome.com/b4cdea8b6a.js" crossorigin="anonymous"></script>
 
+    
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -52,14 +56,7 @@
 
         <!-- Chats container -->
          <div class="chats-container">
-            <div class="message user-message">
-                <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reprehenderit fugiat id deserunt nostrum, ratione sint ad obcaecati, magnam reiciendis maiores facere. Consequuntur porro, odit nam doloremque dolor numquam id!</p>
-            </div>
-
-            <div class="message bot-message">
-                <img src="icons/logo_transparent.png" alt="" class="avatar">
-                <p class="message-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque reprehenderit fugiat id deserunt nostrum, ratione sint ad obcaecati, magnam reiciendis maiores facere. Consequuntur porro, odit nam doloremque dolor numquam id!</p>
-            </div>
+            
          </div>
 
         <!-- Prompt container -->
@@ -68,12 +65,13 @@
                 <form action="#" class="prompt-form">
                     <input type="text" placeholder="Ask HelloUoVT" class="prompt-input required">
                     <div class="prompt-actions">
-                        <button id="add-file-btn" type="button">
-                            <i class="fa-solid fa-paperclip"></i>
+                        <button id="add-file-btn" type="button" class="material-symbols-rounded">
+                            <!-- <i class="fa-solid fa-paperclip"></i> -->attach_file
                         </button>
-                        <button id="send-prompt-btn" type="button">
-                            <i class="fa-solid fa-paper-plane"></i>
+                        <button id="send-prompt-btn" type="submit" class="material-symbols-rounded">
+                            <!-- <i class="fa-solid fa-paper-plane"></i> -->arrow_upward
                         </button>
+                        
                     </div>
                 </form>
                 
@@ -84,6 +82,8 @@
 
          
     </div>    
+
+    <script src="script.js" defer></script>
 </body>
 
 </html>
