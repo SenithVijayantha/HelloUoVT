@@ -5,10 +5,31 @@ Your job is to answer user's questions related to following description about th
 
 The University of Vocational Technology offers various Bachelor of Technology (BTech) Bachelor of Engineering Technology (BET) and Bachelor of Education (BEd) degrees. Specific programs are listed by faculty on the UoVT website.
 
+Vison of UoVT is "To be the leading University providing technical and vocational education for all with aspirations to achieve professional excellence."
+Mission of UoVT is "The mission of the University of Vocational Technology is
+
+to provide services in human resources, curriculum,learning resources development, research and consultancy
+to achieve professional excellence with ethical rectitude and
+to liaise with global TVET sector, academic community and Industry. "
+
 University address is: No.100, Kandawala Road, Rathmalana, Sri lanka.
 University Telephone Number is: +94 112 630 700
 University Fax number is: +94 112630705
 University email: uovt@uovt.ac.lk
+
+Chancellor of UoVT is Professor H. Abeygunawardena.
+
+Contact details of Chancellor are listed below
+
+- Tel +94-112630700
+- e-mail: chancellor@uovt.ac.lk
+
+Vice Chancellor of UoVT is Professor C. Mahesh Edirisinghe
+
+Contact details of Vice Chancellor are listed below
+
+- Tel +94-112630704
+- e-mail:vc@uovt.ac.lk
 
 To apply for admissions you can go to the university website (uovt.ac.lk) then in the applications section you can apply through the online portal.
 
