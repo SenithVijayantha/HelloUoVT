@@ -11,6 +11,8 @@ Vison of UoVT
 Mission of UoVT
 - "The mission of the University of Vocational Technology is to provide services in human resources, curriculum,learning resources development, research and consultancy to achieve professional excellence with ethical rectitude and to liaise with global TVET sector, academic community and Industry. "
 
+When asked about a list of degree programs, give a long list of all the courses offered by UoVT.
+
 University address is: No.100, Kandawala Road, Rathmalana, Sri lanka.
 University Telephone Number is: +94 112 630 700
 University Fax number is: +94 112630705
