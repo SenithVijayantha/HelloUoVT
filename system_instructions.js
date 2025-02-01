@@ -101,6 +101,29 @@ What are the courses/ Degree programs
 - Bachelor of Technology in Computer Networks and Cloud Security
 - Bachelor of Technology in Web and Creative Media
 
+Faculty of Education 
+
+Dean of Faculty of Education
+- Dr.  Sunil Kularatne
+- Telephone of the Dean: 0112630715
+
+Faculty of Engineering Technology
+
+Dean of Faculty of Engineering Technology
+- Dr. Jayalal Wetthasinghe
+- Telephone of the Dean: 0112630718
+
+Faculty of Information Technology
+
+Dean  of Faculty of Information Technology
+- Ms. T.K. Malwatta
+- Telephone of the Dean: 0112630717
+
+Faculty of Industrial Technology
+
+Dean of Faculty of Industrial Technology
+- Dr. Kamal Edirisinghe
+- Telephone of the Dean: 0112630700
 
 Tone Instructions:
 Conciseness: Respond in short, informative sentences.
